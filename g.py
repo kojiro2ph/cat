@@ -5,8 +5,7 @@ import re
 import pip._vendor.requests
 
 radi = "5000"                                       # 該当場所からの半径
-#k = "AIzaSyAdJvLmhKVZ2Gu9VP-Cu4GJCVuq-nP7qpM"       # API Key
-k = "AIzaSyCwG28OHYpYg98CPt621m_RFbtbV_qd8F4"       # API Key
+#k = ""                                             # Google API Key
 ptn = '^2'                                          # 郵便番号の正規表現    ※ 現在 : 東京都に設定
 
 # 駅ファイル読み込み ---
